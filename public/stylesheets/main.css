@@ -1,0 +1,87 @@
+﻿*{
+    padding: 0px;
+
+}
+body {
+    font: 40px "Lucida Grande", Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(240,240,240);
+    background-repeat: round;
+
+    color: rgb(50,50,50);
+}
+
+a {
+    color: #00B7FF;
+}
+p {
+    font-size: 70px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 120px;
+    color: rgb(31,31,31);
+    padding: 10px;
+}
+input[type="text"] {
+    font-size: 40px;
+    border: none;
+    text-align: right;
+    color: white;
+    width: 400px;
+
+}
+button {
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(14,184,31);
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+} 
+.flexbox {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(181,195,213);
+    padding-bottom: 50px;
+    color: white;
+}
+
+#walletTitle {
+    background-color: rgb(3,45,64);
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+}
+#sendtokensLbl {
+    background-color: rgb(3,45,64);
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.form-group input {
+    background-color: rgb(181,195,213);
+}
+
+.box {
+    display: inline-flex;
+    margin-right: auto;
+    padding-left: 50px;
+}
+.box2 {
+    display: inline-flex;
+    padding-right: 50px;
+}
+.info{
+    display: flex;
+    text-align: left;
+}

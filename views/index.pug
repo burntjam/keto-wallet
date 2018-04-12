@@ -1,0 +1,73 @@
+﻿extends layout
+
+block content
+  h1= title 
+
+  p Welcome to your Keto Wallet
+
+    .flexbox
+        p(id='walletTitle') My Wallet
+        .info
+            .box
+                div.form-group
+                    label(for='address' id='lblLeft') Address
+                    br
+                    label(for='ketobalance' id='lblLeft') Keto Balance
+                    br
+                    label(for='tokenbalance' id='lblLeft') Token Balance
+            .box2
+                div.form-group
+                    input#address.form-control(type='text', placeholder='0' name='address' readonly)
+                    br
+                    input#ketobalance.form-control(type='text', placeholder='0' name='ketobalance' readonly)
+                    br
+                    input#tokenbalance.form-control(type='text', placeholder='0' name='tokenbalance' readonly)
+    br
+    .flexbox
+        p(id='sendtokensLbl') Send Tokens
+        .info
+            .box
+                div.form-group
+                    label(for='toaddress' id='lblLeft') To Address
+                    br
+                    label(for='amount' id='lblLeft') Amount
+                    br
+            .box2
+                div.form-group
+                    input#toaddress.form-control(type='text', placeholder='0x00' name='toaddress')
+                    br
+                    input#amount.form-control(type='text', placeholder='0.00' name='amount')
+        br
+        button.btn.btn-primary(type='submit') SEND
+    br
+                 
+    //-
+      form()
+        p(id='walletTitle') My Wallet
+        div.form-group
+            label(for='address' id='lblLeft') Address
+            input#address.form-control(type='text', placeholder='0' name='address' readonly)
+            br
+        div.form-group
+            label(for='ketobalance' id='lblLeft') Keto Balance
+            input#ketobalance.form-control(type='text', placeholder='0' name='ketobalance' readonly)
+            br
+        div.form-group
+            label(for='tokenbalance' id='lblLeft') Token Balance
+            input#tokenbalance.form-control(type='text', placeholder='0' name='tokenbalance' readonly)
+            br
+      form(method='POST' action='/register')
+        p(id='sendtokensLbl') Send Tokens
+        div.form-group
+            label(for='toaddress' id='lblLeft') Send To Address 
+            input#toaddress.form-control(type='text', placeholder='0x00' name='toaddress')
+            br
+        div.form-group
+            label(for='amount' id='lblLeft') Amount 
+            input#amount.form-control(type='text', placeholder='0.00' name='amount')
+            br
+            button.btn.btn-primary(type='submit') SEND 
+            
+
+    
+    

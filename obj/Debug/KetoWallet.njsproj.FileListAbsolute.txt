@@ -1,0 +1,3 @@
+C:\Mason\Keto\KetoWallet\KetoWallet\KetoWallet\obj\Debug\KetoWallet.njsprojResolveAssemblyReference.cache
+C:\Mason\Keto\KetoWallet\KetoWallet\KetoWallet\obj\Debug\KetoWallet.njsproj.CoreCompileInputs.cache
+C:\Mason\Keto\KetoWallet\KetoWallet\KetoWallet\bin\Microsoft.NodejsTools.WebRole.dll
