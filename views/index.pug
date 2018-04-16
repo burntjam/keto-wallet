@@ -1,12 +1,12 @@
 ﻿extends layout
 
-block content
-  h1= title 
+block content 
 
-  p Welcome to your Keto Wallet
+  p(id="welcome") Welcome to your Keto Wallet
 
     .flexbox
         p(id='walletTitle') My Wallet
+        br
         .info
             .box
                 div.form-group
@@ -25,6 +25,7 @@ block content
     br
     .flexbox
         p(id='sendtokensLbl') Send Tokens
+        br
         .info
             .box
                 div.form-group
@@ -37,9 +38,8 @@ block content
                     input#toaddress.form-control(type='text', placeholder='0x00' name='toaddress')
                     br
                     input#amount.form-control(type='text', placeholder='0.00' name='amount')
-        br
+
         button.btn.btn-primary(type='submit') SEND
-    br
                  
     //-
       form()

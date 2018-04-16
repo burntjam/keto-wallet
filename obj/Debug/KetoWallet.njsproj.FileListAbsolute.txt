@@ -1,3 +1,6 @@
 C:\Mason\Keto\KetoWallet\KetoWallet\KetoWallet\obj\Debug\KetoWallet.njsprojResolveAssemblyReference.cache
 C:\Mason\Keto\KetoWallet\KetoWallet\KetoWallet\obj\Debug\KetoWallet.njsproj.CoreCompileInputs.cache
 C:\Mason\Keto\KetoWallet\KetoWallet\KetoWallet\bin\Microsoft.NodejsTools.WebRole.dll
+E:\Users\Mason\Documents\GitHub\keto-wallet\obj\Debug\KetoWallet.njsprojResolveAssemblyReference.cache
+E:\Users\Mason\Documents\GitHub\keto-wallet\obj\Debug\KetoWallet.njsproj.CoreCompileInputs.cache
+E:\Users\Mason\Documents\GitHub\keto-wallet\bin\Microsoft.NodejsTools.WebRole.dll
